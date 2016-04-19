@@ -1,14 +1,2 @@
 .DS_Store
-node_modules/babel-core
-node_modules/babel-loader
-node_modules/babel-preset-es2015
-node_modules/babel-preset-react
-node_modules/babel-preset-survivejs-kanban
-node_modules/css-loader
-node_modules/npm-install-webpack-plugin
-node_modules/react
-node_modules/react-dom
-node_modules/style-loader
-node_modules/webpack
-node_modules/webpack-dev-server
-node_modules/webpack-merge
+node_modules
