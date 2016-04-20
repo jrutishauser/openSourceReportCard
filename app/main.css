@@ -27,3 +27,6 @@ padding: 30px;
 .courseGrade {
 	float: right;
 }
+.submitReport {
+	text-transform: center;
+}
