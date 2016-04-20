@@ -3,5 +3,10 @@ A report card to show you how awesome you open source.
 
 Steps to install:
 
-1. Run `npm install`.
-2. That's it.
+1. Clone teh Repo.
+2. Run `npm install`.
+3. Run `npm start`.
+4. Enter your GitHub username.
+5. Click teh button.
+6. Enjoy teh greatness.
+7. Enter your friend's username too to see who open sources better.
