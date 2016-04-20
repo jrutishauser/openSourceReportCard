@@ -1,9 +1,22 @@
 body{
-	background-color: #e3e3e3;
+	background-color: #fded9d;
 }
 div {
 	text-align: center;
 	font-size: 20pt;
 	padding-top: 2ex;
 	font-family: helvetica;
+}
+.title {
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: black;
+	color: #fded9d;
+}
+.userName {
+margin: 30px;
+}
+.courseName {
+margin: 30px;
 }
