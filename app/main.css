@@ -9,14 +9,21 @@ div {
 }
 .title {
 	text-align: center;
-	padding: 30px;
+	padding: 1px;
 	box-sizing: border-box;
 	background-color: black;
 	color: #fded9d;
+	font-size: 3em;
 }
 .userName {
-margin: 30px;
+padding: 30px;
 }
 .courseName {
-margin: 30px;
+padding: 30px;
+}
+.reportCard {
+	border: 2px solid black;
+}
+.courseGrade {
+	float: right;
 }
