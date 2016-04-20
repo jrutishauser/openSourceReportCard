@@ -72,6 +72,7 @@ class UserCards extends React.Component {
   componentDidMount(){
     let self = this;
     $.getJSON('https://api.github.com/users/' + this.props.username).then((result) => {
+	console.log(result);
       self.setState(result), (err) => {
         console.log(err);
       }
@@ -80,8 +81,11 @@ class UserCards extends React.Component {
   render(){
     return (
         <div className={ 'user-cards-child-cont' }>
+          <span>{ this.state.name }</span>
           <img src={ this.state.avatar_url } className={ 'img' } width='100' height='100'></img>
-          <h3>{ this.state.name }</h3>
+			<div>
+				<span>Course Name is so long</span><span>{this.state.public_repos}</span>
+			</div>
         </div>
     );
   }
