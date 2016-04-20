@@ -84,7 +84,9 @@ class UserCards extends React.Component {
           <span>{ this.state.name }</span>
           <img src={ this.state.avatar_url } className={ 'img' } width='100' height='100'></img>
 			<div>
-				<span>Course Name is so long</span><span>{this.state.public_repos}</span>
+				<p><span>How much do you code? </span><span>{this.state.public_repos}</span></p>
+				<p><span>Interesting Developer? </span><span>{this.state.followers}</span></p>
+				<p><span>Curious Developer? </span><span>{this.state.following}</span></p>
 			</div>
         </div>
     );
