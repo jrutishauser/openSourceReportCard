@@ -7,5 +7,6 @@ Steps to install:
 2. Run `npm install`.
 3. Run `npm start`.
 4. Enter your GitHub username.
-5. Click teh button
+5. Click teh button.
 6. Enjoy teh greatness.
+7. Enter your friend's username too to see who open sources better.
